@@ -10,6 +10,7 @@
 .rank-wrapper {
   flex-basis: 100px;
   margin-right: 10px;
+  position: relative;
 }
 
 .skill-set-wrapper {
@@ -19,4 +20,36 @@
 .rank-img {
   width: 100px;
   height: auto;
+}
+
+.rank-arrow {
+  width: 50px;
+  background-color: $arrow-purple;
+  position: absolute;
+  bottom: 5px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 0.8;
+  &--basic {
+    height: 15px;
+  }
+  &--css {
+    height: 125px;
+  }
+  &--js {
+    height: 75px;
+  }
+}
+
+.rank-triangle {
+  position: absolute;
+  content: '';
+  bottom: -15px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 40px 0 40px;
+  border-color: $arrow-purple transparent transparent transparent;
 }

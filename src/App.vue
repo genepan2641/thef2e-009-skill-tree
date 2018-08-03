@@ -12,6 +12,9 @@
           <div class="basic-skill skill-set flex-box">
             <div class="rank-wrapper">
                 <img class="rank-img" src="static/img/img-planet-basics@2x.png" alt="">
+                <div v-show="enableCss" class="rank-arrow rank-arrow--basic">
+                  <div class="rank-triangle"></div>
+                </div>
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
@@ -30,8 +33,11 @@
 
           <!-- css skill -->
           <div class="css-skill skill-set flex-box" :class="{'skill-set--disabled': !enableCss}">
-            <div class="rank-wrapper">
+            <div class="rank-wrapper ">
                 <img class="rank-img" src="static/img/img-planet-css@2x.png" alt="">
+                <div v-show="enableJs" class="rank-arrow rank-arrow--css">
+                  <div class="rank-triangle"></div>
+                </div>
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
@@ -63,6 +69,9 @@
           <div class="js-skill skill-set flex-box" :class="{'skill-set--disabled': !enableJs}">
             <div class="rank-wrapper">
                 <img class="rank-img" src="static/img/img-planet-js@2x.png" alt="">
+                <div v-show="enableManagers" class="rank-arrow rank-arrow--js">
+                  <div class="rank-triangle"></div>
+                </div>
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
