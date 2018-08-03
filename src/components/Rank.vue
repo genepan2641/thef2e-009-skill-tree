@@ -6,7 +6,7 @@
         <br>
         <h2 class="rank__title">{{ currentRank | capitalize}}</h2>
         <div class="rank__ship-wrapper">
-            <img v-if="currentRank == img" class="rank__ship" v-for="(img, index) in Object.keys(descPair)" :index="index" :key="img" :src="`/static/img/img-ship-${img}@2x.png`" alt="">
+            <img v-show="currentRank == img" class="rank__ship" v-for="(img, index) in Object.keys(descPair)" :index="index" :key="img" :src="`static/img/img-ship-${img}@2x.png`" alt="">
         </div>
         <div class="rank__desc">
           <span v-html="descPair[currentRank]"></span>

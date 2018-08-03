@@ -11,7 +11,7 @@
           <!-- basic skill -->
           <div class="basic-skill skill-set flex-box">
             <div class="rank-wrapper">
-                <img class="rank-img" src="/static/img/img-planet-basics@2x.png" alt="">
+                <img class="rank-img" src="static/img/img-planet-basics@2x.png" alt="">
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
@@ -31,7 +31,7 @@
           <!-- css skill -->
           <div class="css-skill skill-set flex-box" :class="{'skill-set--disabled': !enableCss}">
             <div class="rank-wrapper">
-                <img class="rank-img" src="/static/img/img-planet-css@2x.png" alt="">
+                <img class="rank-img" src="static/img/img-planet-css@2x.png" alt="">
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
@@ -62,7 +62,7 @@
           <!-- js skill -->
           <div class="js-skill skill-set flex-box" :class="{'skill-set--disabled': !enableJs}">
             <div class="rank-wrapper">
-                <img class="rank-img" src="/static/img/img-planet-js@2x.png" alt="">
+                <img class="rank-img" src="static/img/img-planet-js@2x.png" alt="">
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
@@ -93,7 +93,7 @@
           <!-- managers skill -->
           <div class="managers-skill skill-set flex-box" :class="{'skill-set--disabled': !enableManagers}">
             <div class="rank-wrapper">
-                <img class="rank-img" src="/static/img/img-planet-managers@2x.png" alt="">
+                <img class="rank-img" src="static/img/img-planet-managers@2x.png" alt="">
             </div>
             <div class="skill-set-wrapper">
                 <div class="skill-set-row flex-box">
