@@ -6,7 +6,7 @@
             'skill-set__item--is-done-require': isPartialDone(),
             'skill-set__item--is-all-done': isAllDone(),
         }">
-        <div class="skill-set__icon-wrapper" @click="clickOnItem">
+        <div class="skill-set__icon-wrapper" @click="clickOnItem" @mouseover="clickOnItem">
             <i class="material-icons">{{ icon }}</i>
         </div>
         <div class="skill-set__number text-center">
