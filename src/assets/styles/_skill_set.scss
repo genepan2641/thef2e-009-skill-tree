@@ -1,0 +1,22 @@
+.skill-set {
+  margin-bottom: 5px;
+  &--disabled {
+    .rank-img {
+      opacity: 0.3;
+    }
+  }
+}
+
+.rank-wrapper {
+  flex-basis: 100px;
+  margin-right: 10px;
+}
+
+.skill-set-wrapper {
+  flex: 1;
+}
+
+.rank-img {
+  width: 100px;
+  height: auto;
+}

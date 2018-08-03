@@ -1,0 +1,46 @@
+.rank__tag {
+  background-color: $light-purple;
+  color: $title-purple;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.rank__title {
+  @extend .subtitle;
+  display: inline-block;
+  color: white;
+  border-bottom: 4px solid $light-purple;
+  margin: 5px 0 5px 0;
+}
+
+.rank__ship-wrapper {
+  text-align: center;
+  padding: 30px;
+}
+
+.rank__ship {
+  max-width: 300px;
+  margin: auto;
+  animation: floating 1500ms ease-in-out infinite alternate-reverse;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(5%, -5%, 0);
+  }
+}
+
+.rank__desc {
+  border: 1px solid $pink;
+  padding: 20px 30px;
+  color: white;
+}
+
+.rank__desc-remark {
+  font-size: 16px;
+  font-weight: 700;
+  color: $pink;
+}
